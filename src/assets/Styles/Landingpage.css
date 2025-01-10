@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.landingpage{
+    height: 100vh;
+    width: 100%;
+    border: none;
+    /* background-color: tan; */
+    display: grid;
+    place-items: center;
+    background-image: url("../images/slider_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.landingpage .heading{
+    height: auto;
+    width: 40vw;
+    text-align: center;
+    font-weight: bold;
+    /* background-color: #f2d13e; */
+    color: #fdfdfc;
+    text-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+    font-size: 50px;
+    /* margin: 5vh; */
+}
+.landingpage .login-container {
+    border: 1px solid black;
+    /* background-color: rgb(86, 66, 105); */
+    background-color: rgb(237, 235, 225, .9);
+    border-radius: 10px;
+    height: 50vh;
+    width: 40%;
+
+}
+
+.landingpage .login-container .header{
+    text-align: center;
+    font-size: 40px;
+    margin: 2vh 0;
+}
+.landingpage .btn-box {
+    border: 2px solid white;
+    height: 6vh;
+    width: 8vw;
+    margin: 2vh auto;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.landingpage .btn-box .btn1{
+    height: 100%;
+    width: 50%;
+    border-radius: 50px;
+    border: none;
+    transition: all .5s;
+    background-color: rgb(12, 15, 16);
+    color: rgb(114, 121, 126);
+    /* color: #ecebe4; */
+    
+}
+
+.landingpage .btn-box .btn2{
+    height: 100%;
+    width: 50%;
+    border-radius: 50px;
+    margin-left: 50%;
+    border: none;
+    transition: all .5s;
+    background-color: black;
+    color: rgb(114, 121, 126);
+    
+}
+
+.landingpage .form-box{
+    /* background-color: yellow; */
+    padding: 2vh 0;
+    border-radius: 10px;
+}
+
+.form-box .admin-login .header {
+    /* background-color: red; */
+    font-size: 20px;
+    margin: 0;
+    font-family: sans-serif;
+}
+.form-box .user-login .header {
+    /* background-color: red; */
+    font-size: 20px;
+    margin: 0;
+    font-family: sans-serif;
+}
+.landingpage input{
+    border-radius: 5px;
+    display: block;
+    margin: 2vh auto;
+    width: 80%;
+    padding: 1vh 1vw;
+    /* background-color: black; */
+}
+
+.landingpage .form-box .login-btn {
+    display: block;
+    margin: 2vh auto;
+    width: 20%;
+    height: 6vh;
+    padding: 1vh 1vw;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: rgb(114, 121, 126);
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home{
+    height: 88vh;
+    width: 100%;
+    /* background-color: beige; */
+    background-image:radial-gradient( rgba(0, 0, 0, 0.6),rgb(5, 4, 4,.9)), url("../images/libraray-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+ .home .right{
+    /* margin-left: 800px; */
+    height: auto;
+    width: auto;
+    /* padding: 100px 0 0 00px; */
+    /* background-color: rgb(255, 51, 0); */
+    padding: 30vh 0 0 52vw ;
+   
+}
+.home .right h1 {
+    height: auto;
+    width: 40vw;
+    padding: 4vh;
+    text-align: center;
+    border-radius: 100px 0 100px;
+    font-size: 9vh;
+    /* background-color: rgba(9, 9, 2, 0.4); */
+    font-family: sans-serif;
+    color: rgb(247, 245, 242);
+    text-shadow: 2px 2px #000000;
+}
+
+.right .home-btn  {
+    display: block;
+    margin: 2vh 0 0 15vw;
+    height: 8vh;
+    width: 14vw;
+    border-radius: 40px;
+    background-color: #f2d13e;
+    color: aliceblue;
+    border: none;
+    box-shadow: 10px 10px 10px black;
+    font-size: 4vh;
+    font-family: sans-serif;
+    cursor: pointer;
+    /* font-weight: bold; */
+}
+
+.right .home-btn a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.right .home-btn:active{
+    transform: scale(.9);
+}
